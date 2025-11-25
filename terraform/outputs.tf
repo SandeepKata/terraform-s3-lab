@@ -1,5 +1,5 @@
 output "bucket_id" {
   description = "S3 bucket name"
-  value = aws_s3_bucket.terraform-lab-bucket.id
+  value = value = aws_s3_bucket.lab_bucket.id
 
 }
